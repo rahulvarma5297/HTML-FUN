@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COUNT OF PASSENGER</title>
+
+        <style>
+            body {
+                background-image: radial-gradient(red, yellow);;
+            }
+            button {
+                margin: 1%;
+            }
+            #count {
+                margin-left: 10%;
+                position:fixed;
+            }
+            #total {
+                margin-left: 10%;
+                font-size: 40px;
+            }
+            #record {
+                margin-left: 10%;
+                font-size: 40px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <details>
+            <summary>READ ME BEFORE TESTING</summary>
+            <p>1) We are in Rail Way Station:</p>
+            <p>2) When people Enter the Station We add person (count)</p>
+            <p>3) After Certain Peroid we store the Count of persons Till that time</p>
+            <p>and store in the Record of the persons</p>
+            <p>4) We get Total count also!!</p>
+        </details>
+        <h1>PEOPLE ENTERED:</h1>
+        <h2 id="count">0</h2>
+        <br><br><br>
+
+        <button onclick="myfunc()">ADD PERSON</button>
+        <br>
+        <button onclick="myrecord(); mytotal()">RECORD</button>
+
+        <hr><br><h3>Record of the Persons: </h3>
+        <p id="record">0</p>
+        <hr>
+        <h2>Total Person Count:</h2>
+        <p id="total"></p>
+        <hr>
+
+
+        <script src="proj1.js"></script>
+    </body>
+</html>
